@@ -1,5 +1,5 @@
 //first url for which the the site is loaded with embed=true which is a life saviour!!
-var baseUrl = "https://rtcamp.com/wp-json/wp/v2/posts?_embed=true";
+var baseUrl = "https://wptavern.com/wp-json/wp/v2/posts?_embed=true";
 
 //variables to be used below
 var slideIndex = 1;
