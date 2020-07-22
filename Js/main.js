@@ -4,6 +4,7 @@ var baseUrl = "https://rtcamp.com/wp-json/wp/v2/posts?_embed=true";
 //variables to be used below
 var slideIndex = 1;
 var sliderContainer = document.querySelector('.slideshow-container');
+var container = document.querySelector('.container');
 var form = document.querySelector("#frm");
 var img = `<img id="loader" src="./Img/loading.gif" alt="load"></img>`;
 
@@ -20,7 +21,7 @@ const handleForm = (event) => {
 
     const newUrl = document.querySelector('#newUrl').value;
 
-    //
+    //combining the website with api endpoint
     const addUrl = newUrl + '/wp-json/wp/v2/posts?_embed=true';
 
     //calling the function with new url
